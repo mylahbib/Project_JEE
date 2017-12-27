@@ -3,10 +3,10 @@ package com.ensah.Analyse_sentiment;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import com.Analyse_sentiment.appConfig.AppConfig;
 import com.Analyse_sentiment.bo.User;
 import com.Analyse_sentiment.dao.UserDao;
 import com.Analyse_sentiment.dao.impl.UserDaoImpl;
-import com.analyse_sentiment.appConfig.AppConfig;
 
 import junit.framework.TestCase;
 

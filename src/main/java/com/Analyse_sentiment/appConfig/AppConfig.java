@@ -1,4 +1,4 @@
-package com.analyse_sentiment.appConfig;
+package com.Analyse_sentiment.appConfig;
 
 
 import java.util.Properties;
@@ -23,7 +23,8 @@ import com.Analyse_sentiment.bo.User;
 
 
 @Configuration
-@ComponentScan(basePackages = { "com.Analyse_sentiment.bo","com.Analyse_sentiment.dao"})
+@ComponentScan(basePackages = {"com.Analyse_sentiment.actions"  ,"com.Analyse_sentiment.service.impl",
+		"com.Analyse_sentiment.dao","com.Analyse_sentiment.service"})
 @EnableTransactionManagement
 public class AppConfig {
 
@@ -63,7 +64,7 @@ public class AppConfig {
 		Post.class		
 		);
 		
-		//m�thode � tester setAnnotatedPackages("com.bo");
+		//mhode tester setAnnotatedPackages("com.bo");
 
 		if (sessionFactory != null) {
 			LOGGER.debug(" sessionFactory created ...");
@@ -75,7 +76,7 @@ public class AppConfig {
 
 		final Properties hibernateProperties = new Properties();
 
-		hibernateProperties.setProperty("hibernate.hbm2ddl.auto", "create");
+		hibernateProperties.setProperty("hibernate.hbm2ddl.auto", "update");
 		hibernateProperties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
 		hibernateProperties.setProperty("hibernate.show_sql", "true");
 
