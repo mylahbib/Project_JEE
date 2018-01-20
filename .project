@@ -3,6 +3,7 @@
 	<name>Analyse_sentiment</name>
 	<comment></comment>
 	<projects>
+		<project>Analyse_sentiment_Web</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

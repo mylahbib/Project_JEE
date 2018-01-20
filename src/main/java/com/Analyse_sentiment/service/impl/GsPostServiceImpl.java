@@ -21,8 +21,6 @@ public class GsPostServiceImpl implements PostService{
 	private UserDao userDao;
 	
 	public GsPostServiceImpl() {
-
-	System.out.println("GsPostServiceImpl");
 	
 	}
 	
