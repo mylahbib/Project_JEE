@@ -1,0 +1,25 @@
+.icon-spacing{
+	margin: 0px 2px 0px 38px;
+}
+
+ .manu-name a:link, .profile-name a:link{
+  	color: #74829b;
+  }
+ .profile-name a:hover    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  
+  } 
+
+
+
+  .menu-icon-spacing{
+  	margin: 0px 10px 0px 20px;
+  }
+
+
+
+  .manu-name a:hover , .profile-name a:hover{
+  	text-decoration: none;
+  	color:#355ba0;
+  }
